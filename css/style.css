@@ -1,0 +1,132 @@
+/* fonts  */
+body{
+    font-family: 'Dancing Script', cursive;
+font-family: 'Mochiy Pop P One', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Righteous', cursive;
+font-family: 'Roboto', sans-serif;
+}
+.navbar-brand{
+    font-size: 30px;
+    font-weight: 900;
+    color: black;
+}
+.navbar-nav{
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+}
+.container{
+    margin-top: 40px;
+}
+.carousel-item img{
+    width: 100%;
+    height: 700px;
+}
+.convention-btn{
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+}
+.color-palette{
+    color: #7FFF00;
+    font-size: 30px;
+    font-weight: 900;
+}
+.color-palette2{
+    color: #00FF00;
+    font-size: 20px;
+    font-weight: 600;
+}
+.color-y{
+    color: black;
+}
+.font-edit{
+    flex: wrap;
+}
+.card-full-color{
+    background-color: aqua;
+}
+.container1{
+    position: fixed;
+    width: 150px;
+    /* height: 5px; */
+    left:105%;
+    transform:translateX(-150%);
+    top:10px;
+}
+.text-center{
+    margin-top: 4%;
+    margin-bottom: 5%;
+    margin: 100;
+    width: 100%;
+    text-align: center;
+}
+.hovering-card:hover{
+    transform: scale(1.2) ;
+    transition: transform 1s ease-in-out;
+}
+.broder-edit{
+    width: 180px;
+    margin-right: 20%;
+    text-decoration: none;
+    background-image: linear-gradient(tomato, orange);
+    padding: 7px 7px;
+    color: black;
+    font-weight: 900;
+    border: 2px solid teal;
+    border-radius: 8px;
+}
+.container2{
+    padding: 3px;
+    padding-bottom: 10px;
+}
+.footer-edt{
+    flex: wrap;
+    margin-left: 1000px;
+    margin-top: 0%;
+}
+.footer-edt1{
+    margin-left: 1000px;
+}
+footer{
+    margin-left: 0%;
+    color: white;
+    background-color: black;
+    padding: 3px;
+    padding-bottom: 10px;
+}
+.new-class{
+    margin-left: 10px;
+}
+
+/* I-phone X */
+@media only screen and (max-width: 688px) {
+    body{
+        width: 100%;
+    }
+    .container{
+        margin: auto;
+        margin-left: 30px;
+        margin-right: 25px;
+    }
+    .color-palette{
+        font-size: 20px;
+    }
+    .color-palette2{
+        font-size: 15px;
+    }
+    .font-edit{
+        width: 750px;
+        margin-right: 20%;
+    }
+    .container1{
+        position: fixed;
+        width: 60px;
+        
+        left:105%;
+        transform:translateX(-150%);
+        top:10px;
+    }
+}
